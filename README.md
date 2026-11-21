@@ -2,6 +2,18 @@
 
 PowerShell script a [Claude Code](https://docs.claude.com/en/docs/claude-code/overview) CLI Windowsos telepítéséhez és integrálásához.
 
+## Miért kényelmes így?
+
+Az AI-asszisztensek használata általában egy külön alkalmazással kezdődik: megnyitsz egy chatablakot vagy egy fejlesztői környezetet, majd oda töltöd fel vagy ott nyitod meg a fájljaidat. A munka így az eszköz logikája szerint folyik, nem a tiéd szerint.
+
+Ez a script megfordítja ezt a sorrendet. **A Claude oda jön, ahol a fájljaid vannak.**
+
+- **Nincs szükség külön keretprogramra.** Nem kell IDE-t, projektkezelőt vagy webes felületet nyitni. Egy Windows Terminal ablak és a Claude CLI elég.
+- **A fájljaidat a saját logikád szerint rendezed.** Nem kell projektekbe importálni vagy egy adott mappastruktúrához igazodni. Ugyanazokat a mappákat használod, amelyeket eddig is: dokumentumokat, jegyzeteket, forráskódot vagy bármi mást.
+- **A megszokott fájlkezelőből szinte azonnal elérhető.** Az intézőben jobb klikk egy mappára vagy egy mappa üres területére, majd **„Open claude here”**. A Claude már abban a mappában indul, és látja a benne lévő fájlokat. Egy kattintás, és dolgozhatsz is vele.
+
+Így a Claude a Windows része lesz: egy eszköz a kezed ügyében, amelyet bárhol elővehetsz, ahol éppen dolgozol.
+
 ## Mit csinál?
 
 1. **Claude CLI telepítése:** ha a `claude` nincs telepítve, felteszi a hivatalos telepítővel, majd ellenőrzi, hogy a mappája (`%USERPROFILE%\.local\bin`) benne van-e a PATH-ban. Ha nincs, hozzáadja a felhasználói PATH-hoz.
