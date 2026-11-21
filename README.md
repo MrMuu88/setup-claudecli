@@ -26,7 +26,8 @@ Rendszergazdai jog **nem kell**: minden az aktuális felhasználó profiljában 
 
 - Windows 10/11
 - Windows PowerShell 5.1 vagy PowerShell 7+
-- [Windows Terminal](https://aka.ms/terminal) (`winget install --id Microsoft.WindowsTerminal -e`)
+- [Windows Terminal](https://aka.ms/terminal): Windows 11-en alapból telepítve van. Windows 10-en telepíteni kell:
+  `winget install --id Microsoft.WindowsTerminal -e`
 
 ## Használat
 
